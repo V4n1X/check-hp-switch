@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# Version: master
+#
 # V4n1X (C)2019
 #
 # This Script checks HP ProCurve Switches on every Interface for CRC Errors & Packet Errors
