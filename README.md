@@ -12,6 +12,8 @@ by Michael St - 23.10.2014
 
 is121026[at]fhstp.ac.at
 
+https://exchange.nagios.org/directory/Plugins/Hardware/Network-Gear/HP/HP-ProCurve-Switches-CRC-2FPackets-Check/details
+
 # LICENSE
 GNU GPLv3
 
@@ -25,9 +27,10 @@ Help is within the Script (-h)
 
 Debugging is also available (-d)
 
+
 Performance Data: (-p)
 
-Wors great with pnp4nagios (should work also with nagiosgraph)
+   Wors great with pnp4nagios (should work also with nagiosgraph)
 
 # Needed MIBS
 Need more SNMP MIBS downloaded -> snmp-mibs-downloader
