@@ -1,0 +1,17 @@
+# command definition
+# -p = with Performance Data
+
+define command{
+ command_name check_hp_switch
+ command_line $USER1$/check_hp_switch.sh -H $HOSTADDRESS$ -w $ARG1$ -c $ARG2$ -p
+}
+
+
+# service definition
+
+define service{
+        use                     generic-service
+        host_name               <hostname>
+        service_description     HP Switch Check
+        check_command           check_hp_switch!1000!5000
+}
