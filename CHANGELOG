@@ -1,0 +1,27 @@
++++ Looking into the future +++
+- Optimize script and global cleanup
+- Integrate more debugging features
+- Better port names for packet error output
+- Optimize output format for packet errors
+
++++ Version 1.0 +++
+- Removed  MODE SELECTOR for all information in one check (I think thats better)
+- Added more switch information in the output
+- Now working with modular HPE/Aruba switches
+- Fixed error with empty values
+- Added better PortName when using modular switches (currently only CRC Output)
+- Working now when not all modules in switch are present
+- Output format in icinga more read friendly
+- Combine in/out packet errors
+
++++ Version 0 (Base script) +++
+TODO 27.10.2014:
+- add snmp with authentication MODE_SELECTION (not needed in my traineeship. too less time)
+- add 64bit counters for warn/crit and for output
+
+DONE so far:
+- check crc errors (done, but the warn/crits are not active yet)
+- error handling
+- added performance data output
+- added a switch to turn on/off performance data
+- add a second MODE_SELECTION: check for packet drops on in/outgoing interfaces
