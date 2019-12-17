@@ -1,4 +1,4 @@
-# check-hp-switch
+# check-hp-switch (BASH script)
 HP / Aruba Switch CRC/Packet Drop Check (Nagios / Icinga)
 
 This script checks HP/Aruba (also modular) switches (and maybe all others switches with common MIBs) on every interface for CRC errors & packet errors (in / out).
