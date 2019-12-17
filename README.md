@@ -15,6 +15,7 @@ GNU GPLv3
 This means: you are allowed to copy and change the script as you like! The script is free for download,
 but be so kind and don´t delete my name and replace it with yours!
 
+# Other:
 
 Help is within the Script (-h)
 Debugging is also available (-d)
@@ -22,7 +23,7 @@ Debugging is also available (-d)
 Performance Data: (-p)
 Wors great with pnp4nagios (should work also with nagiosgraph)
 
-#Needed MIBS
+# Needed MIBS
 Need more SNMP MIBS downloaded -> snmp-mibs-downloader
  example: https://packages.debian.org/de/jessie/snmp-mibs-downloader
 used MIBs: 	
