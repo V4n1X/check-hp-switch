@@ -39,12 +39,12 @@ example: https://packages.debian.org/de/jessie/snmp-mibs-downloader
 
 used MIBs: 	
 
-RMON-MIB
+- RMON-MIB
 
- - IF-MIB
+  - IF-MIB
 
 # Files
 
-- INSTRUCTIONS: check_hp_crc_howto.txt
+- Service/Command definitions: check_hp_switch_definitions.txt
 
-- Script: check_hp_rc.sh
+- Script: check_hp_switch.sh
