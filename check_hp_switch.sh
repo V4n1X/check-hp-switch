@@ -481,7 +481,7 @@ elif [ $RETURN -eq 1 ] || [ $RETURNPIN -eq 1 ] || [ $RETURNPOUT -eq 1 ]; then
 	RETURN=1
 elif [ $RETURN -eq 2 ] || [ $RETURNPIN -eq 2 ] || [ $RETURNPOUT -eq 2 ]; then
 	RETURN=2
-elif [ $RETURN -eq 3] || [ $RETURNPIN -eq 3 ] || [ $RETURNPOUT -eq 3 ]; then
+elif [ $RETURN -eq 3 ] || [ $RETURNPIN -eq 3 ] || [ $RETURNPOUT -eq 3 ]; then
 	RETURN=3
 fi
 
