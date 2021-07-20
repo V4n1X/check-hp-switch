@@ -2,7 +2,7 @@
 #
 # Version: master
 #
-# V4n1X (C)2019
+# V4n1X (C)2021
 #
 # This Script checks HP ProCurve Switches on every Interface for CRC Errors & Packet Errors
 # Nagios / ICINGA Plugin
@@ -107,7 +107,7 @@ ifparray=
 function print_help 
 {
 echo "
-./check_hp_crc.sh -H HOSTADRESS -C <SNMP COMMUNITY> -v <SNMP VERSION> -w <warning value for ERRORS> -c <critical value for ERRORS>
+./check_hp_switch.sh -H HOSTADRESS -C <SNMP COMMUNITY> -v <SNMP VERSION> -w <warning value for ERRORS> -c <critical value for ERRORS>
 
 -H = Hostaddress
 -C = SNMP Community (optional, if not set we use public)
